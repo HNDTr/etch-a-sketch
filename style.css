@@ -12,11 +12,19 @@
 .container{
     width: 960px;
     height: 960px;
-    margin: 50px;
+    margin: 30px;
     background-color: white;
     border: solid;
     display: flex;
     flex-wrap: wrap;
+}
+.buttons{
+    margin: 20px;
+}
+.newSketch{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
 }
 .coloring{
     background-color: aquamarine;
