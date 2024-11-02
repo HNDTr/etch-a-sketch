@@ -20,12 +20,23 @@
 }
 .buttons{
     margin: 20px;
+    display: flex;
+    gap: 3px;
 }
-.newSketch{
+button{
     border-radius: 20px;
     width: 100px;
     height: 40px;
 }
-.coloring{
-    background-color: aquamarine;
+.active{
+    background-color: green;
+    color: white;
+    border: 2px solid;
+    border-color: red;
 }
+
+.showGrid{
+    border: 0.1px solid;
+    border-color: black;
+}
+
