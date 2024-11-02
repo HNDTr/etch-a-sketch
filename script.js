@@ -44,7 +44,11 @@ function newSketch(){
             if (rainbowActive) {
                 grid.addEventListener('mouseenter', applyRainbowColor);
             } else {
-                grid.addEventListener('mouseenter', applyDefaultColor);
+                if (darken){
+                    grid.addEventListener('mouseenter', opacityDecrease);
+                } else {
+                    grid.addEventListener('mouseenter', applyDefaultColor);
+                }
             }
             if (showGrid){
                 grid.classList.add('showGrid');
